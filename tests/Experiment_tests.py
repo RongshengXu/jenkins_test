@@ -3,6 +3,9 @@ import project1.Experiment as Experiment
 
 class MyTestCase(unittest.TestCase):
 
+  def test_t0(self):
+    r1 = Experiment.largest([])
+
   def test_t1(self):
     r1 = Experiment.largest([1,1,1]) 
     self.assertEqual(r1, 1)
