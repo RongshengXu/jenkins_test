@@ -1,8 +1,8 @@
 import sys
 
 def largest(list):
-  #if len(list) == 0:
-  #  raise ValueError("Cannot call largest on empty list")
+  if len(list) == 0:
+    raise ValueError("Cannot call largest on empty list")
   #max = -sys.maxint # "smallest" possible int
   #max = 10
   max = list[0]
